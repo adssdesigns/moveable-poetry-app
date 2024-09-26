@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moveable Poetry App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Moveable Poetry App</h1>
+        <div class="directions">
+            <h2>Directions</h2>
+            <p>Paste copied text (up to 100 words) into the box below, then click "Enter Poem" to create moveable tiles.</p>
+            <p>Try to build a poem using the words before the timer runs out!</p>
+        </div>
+        <textarea id="poem-input" rows="4" placeholder="Paste your poem text here (up to 100 words)"></textarea>
+        <button id="enter-poem-btn">Enter Poem</button>
+        
+        <div id="word-container" class="word-container"></div>
+        
+        <div class="timer-section" style="display: none;">
+            <h2>Set Timer (20 sec - 60 sec)</h2>
+            <button id="decrease-timer-btn">-10 sec</button>
+            <span id="timer-display">20</span> seconds
+            <button id="increase-timer-btn">+10 sec</button>
+            <button id="start-timer-btn" class="start">Start Timer</button>
+            <button id="reset-btn">Reset</button>
+            <div id="countdown-display" class="countdown"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
