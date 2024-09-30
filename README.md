@@ -2,7 +2,7 @@ Poetry Pieces App
 
 Welcome to the Moveable Poetry App! This web application allows you to interact with poetry in a unique and creative way. Enter a text, break it down into individual words, and then move these words around to form your own poetic creations. Challenge yourself by setting a timer and see what you can come up with before time runs out!
 
-🚀 https://adssdesigns.github.io/moveable-poetry-app/
+🚀  https://adssdesigns.github.io/poetry-pieces-app/
 
 Features
 
